@@ -1,0 +1,231 @@
+#parent{
+    color:white; 
+    font-weight: 600;
+    /* border-style: solid; */
+    /* border-color: #c9c8cf; */
+    /* background-color: #c9c8cf; */
+    padding: 20px;
+    margin-top: none;  
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child1{
+    flex-basis: 58%;
+}
+.child2{
+    flex-basis: 30%;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}  
+/*.child2 a{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-decoration: underline;*/
+   /* transform: scaleX(0);
+    transition: transform 0.5s;*/
+/* }   */
+/*.child2 a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}*/
+.child3{
+    flex-basis: 24%;
+    margin-top: 8px;
+}
+#boxparent{
+    color:black; 
+    font-weight: 600;
+    /* border-style: solid; */
+    /*border-color: #c9c8cf;
+    background-color: #c9c8cf;*/
+    padding: 30px;
+    margin-top: none;  
+    height: 500px;
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+     color: white; 
+}
+.child{
+    background-color: aqua; 
+    width: 350px;
+    border-radius: 10px;
+}
+#boxparent.child:hover{
+    backdrop-filter: blur(20px);
+    color: #c9c8cf;
+}
+/*.image{
+    display: inline-block;
+}
+#text{
+    display: inline-block;
+}*/
+h2{
+    color:black; 
+    text-align: center;
+    font-weight: 600;
+    border-style: solid;
+    border-color: #c9c8cf;
+    background-color: #c9c8cf;
+    padding: 20px;
+    margin-top: none;   
+}
+/* here all h1 head will have color as red*/
+body{
+    /*background-color: #0c017d white;*/
+    background-image: url("compute-ea4c57a4.png");
+}
+/*.grand{
+    border-style: solid;
+    border-color: black;
+    background-color: blueviolet;
+    width: 25%;
+    float: 40%;
+}*/
+.parent1{
+    /*border-style: solid;
+    border-color: black;*/
+    /*background-color:#c9c8cf;*/
+    width: 25%;
+    float: 40%;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    backdrop-filter: blur(20px);
+     color: white; 
+}     
+button#button{
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    min-height: 30px;
+    min-width: 120px;
+    padding: 15px;
+    transition: 0.5s;
+}
+button#button:hover{
+    background-color: white;
+    color: blue;
+}
+input#button1{
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    min-height: 30px;
+    min-width: 120px;
+    padding: 15px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+input#button1:hover{
+    background-color: white;
+    color: black;
+}                                    
+#id1{
+     color: black;
+     font-size: xx-large;
+     display: inline;
+}
+.input{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    text-align: left;
+}
+.input3{
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    text-align: left; 
+}
+p{
+    font-size: 30px;
+}
+.parent3{
+    /*border-style: solid;
+    border-color: black;*/
+    width: 25%;
+    float: 40%;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    backdrop-filter: blur(20px);
+    color: white; 
+}
+/*.parent4{
+    border-style: solid;
+    border-color: black;
+    background-color: #c9c8cf;
+    width: 25%;
+    float: 40%;
+    padding: auto;
+    border-radius: 10px;
+}*/
+#button{
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    min-height: 30px;
+    min-width: 120px;
+    padding: 15px;
+}
+#button1{
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    min-height: 30px;
+    min-width: 120px;
+    padding: 15px;
+    margin-top: 10px;
+}
+#id2{
+     color: black;
+     font-size: xx-large;
+     display: inline;
+}
+.input1{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+    text-align: left;
+}
+.a{
+    font-size: 30px;
+}
+footer {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    background-color:#c9c8cf;
+    color:black;
+    margin-top: 30px;
+  }
+
+/* Universal Selector we use : 
+*{
+    color:blue;
+}
+
+
+
+#sahil{
+    color: black;
+}
+.sahil{
+    color: brown;
+}*/
