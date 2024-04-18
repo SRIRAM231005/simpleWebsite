@@ -59,7 +59,7 @@
      color: white; 
 }
 .child{
-    background-color: aqua; 
+    background-color:white; 
     width: 350px;
     border-radius: 10px;
 }
@@ -215,6 +215,78 @@ footer {
     color:black;
     margin-top: 30px;
   }
+ .item{
+    color: black;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 21px;
+ } 
+ .see{
+    padding-top: 30px;
+    color: white;
+
+ }
+ .see1{
+    background-color: black;
+    color: white;
+    font-size: small;
+    border-radius: 30px;
+    padding: 15px;
+ }
+ .see1:hover{
+    background-color: whitesmoke;
+    color: blue;
+    transition: 0.5s;
+    border: none;
+} 
+#newparent{
+    background-color: rgb(224, 214, 214);
+    height: 800px;
+    width: 1850px;
+    
+}
+.new{
+    align-items: center;
+}
+#boxparent1{
+    color:black; 
+    font-weight: 600;
+    /* border-style: solid; */
+    /*border-color: #c9c8cf;
+    background-color: #c9c8cf;*/
+    padding: 30px;
+    margin-top: none;  
+    height: 600px;
+    width: 1700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+     color: white; 
+}      
+.newchild{
+    background-color:white; 
+    width: 320px;
+    border-radius: 10px;
+}
+.item1{
+    color: black;
+    text-align: left;
+    padding-top: 23px;
+    padding-left: 20px;
+    font-size: 21px;
+    font-weight:lighter;
+ }     
+ .item2{
+    color: black;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 20px;
+    font-size: 21px;
+    font-weight:lighter;
+ }     
 
 /* Universal Selector we use : 
 *{
