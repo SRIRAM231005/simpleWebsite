@@ -233,6 +233,7 @@ footer {
     font-size: small;
     border-radius: 30px;
     padding: 15px;
+    cursor: pointer;
  }
  .see1:hover{
     background-color: whitesmoke;
@@ -286,7 +287,24 @@ footer {
     padding-left: 20px;
     font-size: 21px;
     font-weight:lighter;
- }     
+ } 
+ .newchild2{
+    flex-basis: 6%;
+    position: relative;
+ }    
+ .newchild2 span{
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 46px;
+    top: 0px;
+ }
 
 /* Universal Selector we use : 
 *{
