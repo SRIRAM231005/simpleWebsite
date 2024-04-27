@@ -232,11 +232,12 @@ footer {
     color: white;
     font-size: small;
     border-radius: 30px;
-    padding: 15px;
+    padding: 11px 25px;
     cursor: pointer;
+    letter-spacing: 1px;
  }
  .see1:hover{
-    background-color: whitesmoke;
+    background-color: rgb(212, 208, 208);
     color: blue;
     transition: 0.5s;
     border: none;
@@ -258,14 +259,14 @@ footer {
     background-color: #c9c8cf;*/
     padding: 30px;
     margin-top: none;  
-    height: 600px;
+    height: 610px;
     width: 1700px;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     border-radius: 10px;
     backdrop-filter: blur(20px);
-     color: white; 
+    color: white; 
 }      
 .newchild{
     background-color:white; 
@@ -275,7 +276,7 @@ footer {
 .item1{
     color: black;
     text-align: left;
-    padding-top: 23px;
+    padding-top: none;
     padding-left: 20px;
     font-size: 21px;
     font-weight:lighter;
@@ -284,7 +285,7 @@ footer {
     color: black;
     text-align: left;
     padding-top: 7px;
-    padding-left: 20px;
+    padding-left: 8px;
     font-size: 21px;
     font-weight:lighter;
  } 
@@ -305,7 +306,82 @@ footer {
     right: 46px;
     top: 0px;
  }
-
+ .qty{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 22px;
+ }
+ .hiddenMessage1{
+    color: rgb(16, 165, 29);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    font-weight: normal;
+ }
+ .hiddenMessage2{
+    color: rgb(16, 165, 29);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    font-weight: normal;
+ }
+ .hiddenMessage3{
+    color: rgb(16, 165, 29);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    font-weight: normal;
+ }
+ .hiddenMessage4{
+    color: rgb(16, 165, 29);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    font-weight: normal;
+ }
+ .hiddenMessage5{
+    color: rgb(16, 165, 29);
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    font-weight: normal;
+ }
+ .search1{
+    width: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ }
+ .search{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: larger;
+    padding-left: 18px;
+ }
+ .logo{
+    flex-basis: 8%;
+ }
+ .searchbutton{
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+ }
 /* Universal Selector we use : 
 *{
     color:blue;
