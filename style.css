@@ -247,7 +247,6 @@ footer {
     height: 800px;
     width: 1750px;
     overflow-y: scroll;
-    scroll-behavior: smooth;
     border-radius: 10px;
     
 }
