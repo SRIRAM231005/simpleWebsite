@@ -245,8 +245,14 @@ footer {
 #newparent{
     background-color: rgb(224, 214, 214);
     height: 800px;
-    width: 1850px;
+    width: 1750px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border-radius: 10px;
     
+}
+#newparent::-webkit-scrollbar{
+    display: none;
 }
 .new{
     align-items: center;
@@ -257,7 +263,24 @@ footer {
     /* border-style: solid; */
     /*border-color: #c9c8cf;
     background-color: #c9c8cf;*/
-    padding: 30px;
+    /*padding: 30px;*/
+    margin-top: none;  
+    height: 610px;
+    width: 1700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    color: white; 
+} 
+#boxparent2{
+    color:black; 
+    font-weight: 600;
+    /* border-style: solid; */
+    /*border-color: #c9c8cf;
+    background-color: #c9c8cf;*/
+    /*padding: 30px;*/
     margin-top: none;  
     height: 610px;
     width: 1700px;
@@ -312,51 +335,15 @@ footer {
     align-items: center;
     padding-left: 22px;
  }
- .hiddenMessage1{
+ .hiddenMessage1, .hiddenMessage2, .hiddenMessage3, .hiddenMessage4, .hiddenMessage5, .hiddenMessage6, .hiddenMessage7, .hiddenMessage8, .hiddenMessage9, .hiddenMessage10{
     color: rgb(16, 165, 29);
     font-size: larger;
     display: flex;
     justify-content: center;
     align-items: center;
     display: none;
-    font-weight: normal;
- }
- .hiddenMessage2{
-    color: rgb(16, 165, 29);
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-    font-weight: normal;
- }
- .hiddenMessage3{
-    color: rgb(16, 165, 29);
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-    font-weight: normal;
- }
- .hiddenMessage4{
-    color: rgb(16, 165, 29);
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-    font-weight: normal;
- }
- .hiddenMessage5{
-    color: rgb(16, 165, 29);
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-    font-weight: normal;
- }
+    font-weight: none;
+ }   
  .search1{
     width: 700px;
     background-color: white;
